@@ -1,0 +1,30 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace phillip_wallack_lab3
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int UsersAge;
+            double HowMuchMoney;
+            string UsersName;
+            Console.WriteLine("Hello, my name is Hal");
+            Console.WriteLine("What is your name?");
+            UsersName = (Console.ReadLine());
+
+            Console.WriteLine("Hello UsersName, how old are you?");
+            UsersAge = int.Parse(Console.ReadLine() );
+
+            Console.WriteLine("How much money do you have UsersName?");
+            HowMuchMoney = double.Parse(Console.ReadLine());
+
+            Console.WriteLine("Thank you", (UsersName).  ("You are", (UsersAge)) ("years old and you have", (HowMuchMoney).));
+            Console.ReadLine();
+        }
+    }
+}
